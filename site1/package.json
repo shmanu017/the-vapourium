@@ -1,0 +1,10 @@
+{
+  "name": "the-vapourium",
+  "description": "An example site for demos and exploration",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp src/* dist/"
+  },
+  "author": "Phil Hawksworth <phil@netlify.com>",
+  "license": "ISC"
+}
