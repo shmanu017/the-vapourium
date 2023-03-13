@@ -6,5 +6,11 @@
     "build": "cp src/* dist/"
   },
   "author": "Phil Hawksworth <phil@netlify.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
 }
